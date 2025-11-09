@@ -13,7 +13,7 @@ import time
 PDF_PATH = r"C:\Users\Adhiraj\Downloads\BuddyAI Project\BuddyAI-Onboarding-Testing-Doc.pdf"
 
 # Hugging Face API Token
-os.environ["HF_TOKEN"] = "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"  # Replace with your actual token
+os.environ["HF_TOKEN"] = "Token"  # Replace with your actual token
 
 # OpenAI-compatible client
 client = OpenAI(
@@ -176,3 +176,4 @@ else:
 
     else:
         st.error("⚠️ No content found in the PDF(s).")
+
