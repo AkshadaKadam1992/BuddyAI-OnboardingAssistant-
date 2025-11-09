@@ -8,7 +8,7 @@ from numpy.linalg import norm
 from openai import OpenAI
 
 # Set your Hugging Face API token here
-os.environ["HF_TOKEN"] = "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"  # Replace with your actual token
+os.environ["HF_TOKEN"] = "Token"  # Replace with your actual token
 
 # Initialize OpenAI-compatible client for Hugging Face Meta Llama 3.1 inference
 client = OpenAI(
